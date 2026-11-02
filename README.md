@@ -4,7 +4,7 @@
 
 **ICDE, 2027**
 
-**Lexi Bai**<sup>1</sup>, **Xiaopeng Zeng**<sup>1</sup>, **Xun Zhou**<sup>1</sup>, **Yuanshao Zhu**<sup>2,*</sup>, and **James Jianqiao Yu**<sup>1,*</sup>
+**Lexi Bai**, **Xiaopeng Zeng**, **Xun Zhou**, **Yuanshao Zhu**, and **James Jianqiao Yu**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.39518-b31b1b.svg)](https://arxiv.org/abs/2610.39518)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue.svg)](https://arxiv.org/pdf/2610.39518)
