@@ -1,21 +1,17 @@
-# ANCHOR: Category-Anchored Large Language Models for Next POI Recommendation
+# Category-Anchored Large Language Models for Next POI Recommendation
 
-> **ANCHOR** bridges high-level mobility intent and concrete POI prediction with category anchors, multi-source candidate grounding, and history-aware reranking.
+<div align="center">
 
-## Authors
+**ICDE, 2027**
 
 **Lexi Bai**<sup>1</sup>, **Xiaopeng Zeng**<sup>1</sup>, **Xun Zhou**<sup>1</sup>, **Yuanshao Zhu**<sup>2,*</sup>, and **James Jianqiao Yu**<sup>1,*</sup>
 
-<sup>1</sup> `Harbin Institute of Technology (Shenzhen)`  
-<sup>2</sup> `City University of Hong Kong`  
+[![arXiv](https://img.shields.io/badge/arXiv-2610.39518-b31b1b.svg)](https://arxiv.org/abs/2610.39518)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue.svg)](https://arxiv.org/pdf/2610.39518)
 
-## Links
+</div>
 
-- **Paper**: [`paper.pdf`](paper.pdf)
-
----
-
-## Introduction
+## Overview
 
 This repository is the implementation accompanying the paper **Category-Anchored Large Language Models for Next POI Recommendation**.
 
@@ -344,9 +340,21 @@ python eval_best_reranker.py \
   --out_csv "$ROOT/output_nyc/reranker_three_source/history_aware/test_cases.csv"
 ```
 
-## Acknowledgement
 
-This implementation uses PyTorch, Hugging Face Transformers, Datasets, PEFT, BitsAndBytes, and the LightGCN propagation idea. We thank the authors and maintainers of these projects for making their software available to the research community.
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{bai2026category,
+  title={Category-Anchored Large Language Models for Next POI Recommendation},
+  author={Bai, Lexi and Zeng, Xiaopeng and Zhou, Xun and Zhu, Yuanshao and Yu, James Jianqiao},
+  journal={arXiv preprint arXiv:2610.39518},
+  year={2026}
+}
+```
+
+The BibTeX entry will be updated with the official ACM MM proceedings metadata and DOI when they become available.
 
 ## License
 
